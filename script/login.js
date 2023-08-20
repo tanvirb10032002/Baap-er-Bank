@@ -10,9 +10,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     // DANGER: Do Not Verify email password on the client side
     // step-4: varify email and password
     if(email === 'sontan@baap.com' && password === 'secret'){
-        console.log("Valid User");
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('Invalid User');
+        alert('Tui Password vula gasos!!! Toke ami taijjo sontan gosona korlam...');
     }
 })
